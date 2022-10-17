@@ -50,6 +50,7 @@
 .header__subtitle {
   width: 388px;
   position: absolute;
+  z-index: 2;
   bottom: 30px;
   left: 64px;
   line-height: 25px;
@@ -87,6 +88,46 @@
   right: 0;
 }
 
+.description {
+  margin-top: 100px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+  margin: auto;
+  
+
+}
+
+.two-columns__brief {
+  width: 175px;
+
+  margin-right: 30px;
+  margin-top: 5px;
+  color: #2F80ED;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.two-columns__paragraph_spacing {
+  margin-bottom: 30px;
+}
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
