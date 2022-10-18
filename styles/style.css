@@ -183,6 +183,54 @@
 .table__text_spacing {
   margin-top: 20px;
 }
+
+.feynman {
+  height: 790px;
+  background-color: #F2F2F2;
+  margin-top: 100px;
+  position: relative;
+}
+
+.feynman__title {
+  width: 775px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  position: absolute;
+  top: 450px;
+  left: 607px;
+  z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  color: #2F80ED;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
