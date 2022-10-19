@@ -25,9 +25,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative; 
+
 }
 
 .logo-place-header {
+
   position: absolute;
   top: 30px;
   left: 64px;
