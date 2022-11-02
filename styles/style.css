@@ -15,81 +15,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  background-color: #F2F2F2;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* parameters for the header section */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
 
-}
-
-.logo-place-header {
-
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 1;
-  width: 154px;
-  height: 31px;
-
-}
-
-.header__title {
-  width: 730px;
-  position: absolute;
-  z-index: 1;
-  margin-left: 64px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-}
-
-.header__subtitle {
-  width: 388px;
-  position: absolute;
-  z-index: 2;
-  bottom: 30px;
-  left: 64px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-
-}
-
-.header__link {
-  text-decoration: none;
-  position: absolute;
-  bottom: 10px;
-  left: 64px;
-
-
-}
-
-.header__main-ilustration {
-  width: 756;
-  height: 608px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
 
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: #2F80ED;
-  position: absolute;
-  top: 64px;
-  right: 0;
-}
+
 
 .description {
   margin-top: 100px;
