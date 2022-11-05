@@ -1,0 +1,13 @@
+.header__link {
+  color: #2F80ED;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 64px;
+  transition: opacity 1s ease; /* boas praticas aplicar o transiction ao elemento*/
+}
+
+.header__link:hover {
+  opacity: 0.5; /*sobre o hover so deixo para o que eu quero q mude */
+
+}
