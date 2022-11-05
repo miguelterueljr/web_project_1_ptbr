@@ -1,0 +1,9 @@
+.kaufman__tringle {
+  position: absolute;
+  width: 660px;
+  height: 636px;
+  right: -124px;
+  bottom: 0px;
+  z-index: -1;
+  animation: rotation 20s linear 0s infinite normal backwards;
+}
