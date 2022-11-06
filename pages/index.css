@@ -60,11 +60,12 @@
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__columns/__columns-flex/footer__columns-flex.css);
 @import url(../blocks/footer/logo-place-footer/logo-place-footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/column__link/column__link.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/root/root.css);
