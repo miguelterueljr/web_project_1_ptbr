@@ -14,7 +14,7 @@
       <h2 class="header__subtitle">As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.</h2>
       <a href="#" class="header__link">Saiba mais &#x2192;</a>
       <img src="./images/header-image.png" alt="foto de uma pessoa sobre uma montanha. foto principal do cabeçalho" class="header__main-ilustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div> <!--Aqui deve ter 2 classes pois preciso reutilizar o rotation// feito-->
     </header>
 
     <main class="content">
@@ -22,9 +22,10 @@
       <section class="description">
         <div class="two-columns">
           <h3 class="two-columns__brief">O maior problema da educação</h3>
-          <div class="two-columns__main-tex">
-            <p class="two-columns__paragraph two-columns__paragraph_spacing">Seja na escola ou na universidade, o assunto que ninguém vai te ensinar é como se tornar autodidata. Nós repetimos exercícios específicos e memorizamos informações sem pensar e quando chega a hora do exame, o objetivo é apenas passar. Mas depois que o exame acaba, essa informação não tem mais utilidade, e não há garantia que ela será retida. No fim, nós só estamos aprendendo mesmo a passar nas nossas provas.</p>
-            <p class="two-columns__paragraph two-columns__paragraph_spacing"><span class="two-columns__span-accent">Aqui vai a pergunta de fato:</span> será que essa abordagem de repetição e memorização nos ajuda realmente a entender o assunto? O consenso na academia atualmente é de que não ajuda. Aliás, mais importante do que um tópico individual é saber como estudar, mas por algum motivo esta questão é sempre deixada de lado. Então, o que podemos fazer para remediar isso?</p>
+          <div class="two-columns__main-text">
+            <!--Abaixo nao existe a classe spacing, existe metodos para resolver preciso de um espaçamento pra baixo de 30px. posso usar flexbox na disposiçao de colunas. -->
+            <p class="two-columns__paragraph">Seja na escola ou na universidade, o assunto que ninguém vai te ensinar é como se tornar autodidata. Nós repetimos exercícios específicos e memorizamos informações sem pensar e quando chega a hora do exame, o objetivo é apenas passar. Mas depois que o exame acaba, essa informação não tem mais utilidade, e não há garantia que ela será retida. No fim, nós só estamos aprendendo mesmo a passar nas nossas provas.</p>
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Aqui vai a pergunta de fato:</span> será que essa abordagem de repetição e memorização nos ajuda realmente a entender o assunto? O consenso na academia atualmente é de que não ajuda. Aliás, mais importante do que um tópico individual é saber como estudar, mas por algum motivo esta questão é sempre deixada de lado. Então, o que podemos fazer para remediar isso?</p>
             <p class="two-columns__paragraph">Bem, há várias técnicas e exercícios que podem ser aplicados ao processo educacional para ajudar a torná-lo mais eficiente e cativante. Continue lendo para descobrir alguns dos segredos do aprendizado eficaz.
             </p>
           </div>
@@ -71,7 +72,7 @@
         <h2 class="section-title">Conversas TED</h2>
         <h4 class="section-subtitle">Para os amantes da procrastinação</h4>
         <div class="video__iframes">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe video__iframe_margin-right"></iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe ideo__iframe_margin-right"></iframe>
 
           <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
         </div>
@@ -109,7 +110,7 @@
           <li class="table__cell"> <!--numero 4,sera o bloco que usarei nos demais, so mudara conteudo, tipo um cards. no exemplo teremos 8 iguais a esse-->
             <h5 class="table__heading">73%</h5>
             <p class="table__text">A porcentagem de adultos nos EUA que se consideram aprendizes para a vida toda - </p>
-            <p class="table__text table__text_spacing">Centro de Pesquisas Pew</p>
+            <p class="table__text">Centro de Pesquisas Pew</p> <!--Aqui nao precisa de 2 classes, na proposta foi solicitado o espaçamento de 20px por isso cirei essa classe. vamos resolver ????-->
           </li>
 
           <li class="table__cell"> <!--numero 4,sera o bloco que usarei nos demais, so mudara conteudo, tipo um cards. no exemplo teremos 8 iguais a esse-->
@@ -119,12 +120,13 @@
 
           <li class="table__cell"> <!--numero 4,sera o bloco que usarei nos demais, so mudara conteudo, tipo um cards. no exemplo teremos 8 iguais a esse-->
             <h5 class="table__heading">500 trilhões</h5>
-            <p class="table__text">O número de sinapes nervosas rsponsáveis pelo aprendizado em um adulto humano médio</p>
+            <p class="table__text">O número de sinapes nervosas responsáveis pelo aprendizado em um adulto humano médio</p>
           </li>
 
           <li class="table__cell"> <!--numero 4,sera o bloco que usarei nos demais, so mudara conteudo, tipo um cards. no exemplo teremos 8 iguais a esse-->
             <h5 class="table__heading">420 trilhões</h5>
-            <p class="table__text">O número de adultos abaixo de 25 anos sem educação suficiente para encontrar empregos - Banco Mundial, 2017</p>
+            <p class="table__text">O número de adultos abaixo de 25 anos sem educação suficiente para encontrar empregos -</p>
+            <p class="table__text">Banco Mundial, 2017</p>
           </li>
 
           <li class="table__cell"> <!--numero 4,sera o bloco que usarei nos demais, so mudara conteudo, tipo um cards. no exemplo teremos 8 iguais a esse-->
@@ -152,14 +154,13 @@
           <p class="khan__quote">A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes no mundo todo. o livro The One World Schoolhouse é uma leitura obrigatória para quem quer melhorar a educação e que os estudantes habilidades e conhecimentos necessários na escola, na carreira e na vida em geral.</p>
           <h5 class="khan__quote-author">George Lucas</h5>
           <h6 class="khan__quote-author-subline">Diretor</h6>
-          <ul class="khan__book-container">
-            <li class="khan__book-pic"></li>
-            <li><a href="#" class="khan__buy-link">Comprar &#x2192;</a></li>
-          </ul>
+          <div class="khan__book-container">
+            <img src="./images/khan-book-2.png" alt="Capa do livro The One World School House" class="khan__book-pic"></li>
+            <a href="#" class="khan__buy-link">Comprar &#x2192;</a>
+          </div>
         </div>
       </section>
 
-      <!--erros da linha 163 a 184-->
       <section class="kaufman">
         <h3 class="section-title section-title_theme_dark">Dez princípios para adquirir habilidades de forma rápida</h3>
         <h4 class="section-subtitle section-subtitle_theme_dark">por Josh Kaufman</h4>
@@ -207,7 +208,7 @@
         </ul>
         <img src="./images/kaufman-triangle.svg" alt="Um
         grande triângulo azul, sobre o qual Josh Kaufman reclama
-        propriedade" class="kaufman__tringle">
+        propriedade" class="kaufman__tringle rotation"> <!--Usar duas classes, criei o bloco rotation e utilizo a classe aqui e no qudrado do header-->
       </section>
 
       <section class="resources">
@@ -223,37 +224,31 @@
     </main>
 
     <footer class="footer">
-      <section class="footer__columns">
-        <div class="footer__column footer__column_content_copyright">
-          <img src="./images/logo_place_footer.png" alt="Logotipo da Practicum, um Y e escrito por extenso Practicum">
+      <section class="footer__columns"> <!--Vai dividir o bloco em 2 colunas-->
+
+        <div class="footer__column footer__column_content_copyright"> <!--Bloco logo e autor-->
+          <img src="./images/logo_place_footer.png" alt="Logotipo Practicum" class="logo logo-place-footer">
           <h6 class="footer__author">© Miguel Teruel</h6>
         </div>
 
-        <section class="footer__columns-flex">
-          <ul class="footer__column footer__column_content_about">
-            <li class="footer__list">
-              <h6 class="footer__column-heading">Sobre o Practicum da Yandex</h6>
-              <a href="#" class="footer__column-link">Página Inicial</a>
-              <a href="#" class="footer__column-link">Missão</a>
-              <a href="#" class="footer__column-link">Profissões</a>
-            </li>
+        <div class="footer__column footer__column_content_about"> <!--Coluna com links pracitucm -->
+          <h4 class="footer__column-heading">Sobre o Practicum da Yandex</h4>
+          <ul class="footer__list">
+            <li><a href="https://practicum.com/pt-bra/" class="footer__column-link">Página Inicial</a></li>
+            <li><a href="#" class="footer__column-link">Missão</a></li>
+            <li><a href="#" class="footer__column-link">Profissões</a></li>
           </ul>
+        </div>
 
-          <ul class="footer__column footer__column_content_social">
-            <li class="footer__list">
-              <h6 class="footer__column-heading">Mídia social</h6>
-              <a href="https://www.facebook.com" class="footer__column-link"><img src="./images/facebook_white.svg" alt="logotipo do Facebook" class="footer__social-icons"> Facebook</a>
-              <a href="https://www.instagram.com" class="footer__column-link"><img src="./images/instagram_white.svg" alt="logotipo do instagram" class="footer__social-icons">Instagram</a>
-
-
-            </li>
-
+        <div class="footer__column footer__column_content_social"> <!--Coluna com links social media-->
+          <h4 class="footer__column-heading">Mídia Social</h4>
+          <ul class="footer__list">
+            <li><a href="https://www.facebook.com" class="footer__column-link"><img src="./images/facebook_white.svg" alt="logotipo do Facebook" class="footer__social-icons">Facebook</a></li>
+            <li><a href="https://www.instagram.com" class="footer__column-link"><img src="./images/instagram_white.svg" alt="logotipo do instagram" class="footer__social-icons">Instagram</a></li>
           </ul>
-        </section>
-
+        </div>
+        
       </section>
-
-
     </footer>
   </div>
 </body>

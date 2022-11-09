@@ -1,6 +1,5 @@
-.techniques {
+.two-columns__main-text{
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-
+  gap: 30px;
 }
