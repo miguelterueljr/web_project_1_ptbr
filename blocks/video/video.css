@@ -3,5 +3,6 @@
   background-image: linear-gradient(to bottom, white 0px 500px, #F2F2F2 500px 516px);
   display: flex;
   flex-direction: column;
+  align-items: center;
 
 }

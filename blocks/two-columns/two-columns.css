@@ -1,9 +1,6 @@
 .two-columns {
   display: flex;
-  justify-content: space-between;
   width: 80%;
   min-width: 784px;
-  margin: auto;
-
-
+  /* aqui tinha um margin auto que resolvi aplicando flexbox ao bloco description que é seu pai e jsutify-content: center */
 }

@@ -7,5 +7,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
 
 }
