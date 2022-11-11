@@ -1,9 +1,10 @@
 .header__title {
   width: 730px;
-  position: absolute;
   z-index: 1;
   padding-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  align-self: center; /* como usei flexbox no bloco pai, usso essa propriedade pra flex o flex-item, colocando somente ele no centro */
+
 }

@@ -1,9 +1,4 @@
 .cards__item {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 200px;
-  padding-right: 100px;
-  align-items: center;
+  width: 240px; /* realmente antes nao sabia exato o width, porem percebi que se a imagem tem 160 e cada margem tem mais 40, somando tudo da 240 */
 }

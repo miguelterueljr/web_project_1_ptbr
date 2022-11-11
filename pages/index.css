@@ -88,12 +88,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__columns/__columns-flex/footer__columns-flex.css);
-@import url(../blocks/footer/__column/__column_content_about/footer__column_content_about.css);
+@import url(../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
 @import url(../blocks/footer/logo-place-footer/logo-place-footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__column/_content_about/footer__column_content_about.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column/_content_social/footer__column_content_social.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
-

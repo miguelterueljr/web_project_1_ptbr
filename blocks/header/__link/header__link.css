@@ -2,6 +2,7 @@
   color: #2F80ED;
   text-decoration: none;
   transition: opacity 1s ease; /* boas praticas aplicar o transiction ao elemento*/
+  display: block;
 }
 
 .header__link:hover {

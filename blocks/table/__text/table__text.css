@@ -2,8 +2,5 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text:nth-child(3) {
-  padding-top: 20px;
+  margin-top: 20px;
 }

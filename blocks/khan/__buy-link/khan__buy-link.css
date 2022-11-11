@@ -3,8 +3,8 @@
   font-size: 30px;
   font-weight: normal;
   color: #2F80ED;
-  padding-left: 48px;
   transition: opacity 1s ease;
+  text-decoration: none;
 
 }
 

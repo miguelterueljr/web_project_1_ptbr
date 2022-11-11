@@ -1,6 +1,8 @@
 .khan__book-container {
   padding-top: 68px;
   display: flex;
-  list-style: none;
-  
+  flex-direction: row;
+  column-gap: 48px;
+
+
 }

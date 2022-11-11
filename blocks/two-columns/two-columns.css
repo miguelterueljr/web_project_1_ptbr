@@ -1,6 +1,8 @@
 .two-columns {
   display: flex;
   width: 80%;
-  min-width: 784px;
-  /* aqui tinha um margin auto que resolvi aplicando flexbox ao bloco description que é seu pai e jsutify-content: center */
+  justify-content: space-between; /* propriedade pra alinhar o bloco incial ao start e o bloco final ao end com espaçamento entre os dois*/
+  /* aqui tinha um margin auto que resolvi aplicando flexbox ao bloco description que é seu pai */
+
+  /* aqui antes tinha colocado min-width de 784px pq tinha entendido pelo desenho do projeto q era sobre esse bloco, porem com as instruçoes comecei a perceber melhor o desenho solicitado */
 }
